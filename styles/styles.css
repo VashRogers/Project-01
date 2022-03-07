@@ -29,6 +29,7 @@ body {
 }
 .btn:hover {
   background-color: rgb(224, 191, 0);
+  transition: 0.5s;
 }
 #divisor1 {
   margin-top: 15%;
@@ -38,6 +39,20 @@ body {
     rgb(224, 191, 0) 0%,
     rgb(53, 53, 53) 100%
   );
+}
+
+#btn1 {
+  margin-top: 27.063rem;
+  background-color: black;
+  color: rgb(224, 191, 0);
+  border-color: rgb(224, 191, 0);
+  border-radius: 10%;
+  padding: auto;
+}
+#btn1:hover{
+  background-color: rgb(224, 191, 0);
+  color: black;
+  transition: 0.5s;
 }
 
 #img01 {

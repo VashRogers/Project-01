@@ -1,9 +1,6 @@
-body{
-
-  background-color: rgb(26, 26, 26);
-
+body {
+  background-color: black;
 }
-
 
 .texto {
   text-align: center;
@@ -11,9 +8,28 @@ body{
 }
 .divider {
   height: 1px;
-  background: linear-gradient(270deg, rgb(224, 191, 0) 0%, rgb(53, 53, 53) 100%);
+  background: linear-gradient(
+    270deg,
+    rgb(224, 191, 0) 0%,
+    rgb(53, 53, 53) 100%
+  );
 }
 
-#img01{
+.button {
+  text-align: center;
+}
 
+.btn {
+  margin-top: 8px;
+  background-color: black;
+  color: rgb(224, 191, 0);
+  border-color:  rgb(224, 191, 0);
+  border-radius: 20%;
+}
+.btn:hover{
+  background-color: rgb(224, 191, 0);
+  
+}
+
+#img01 {
 }

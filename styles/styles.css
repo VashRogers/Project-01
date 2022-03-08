@@ -1,5 +1,15 @@
 body {
   background-color: black;
+  font-family: 'Teko', sans-serif ;
+}
+
+main{
+  display: block;
+  height: 22.375rem;
+}
+footer{
+  text-align: center;
+  color: rgb(224, 191, 0);
 }
 
 .texto {
@@ -19,6 +29,10 @@ body {
   text-align: center;
 }
 
+.button-pg2{
+  text-align: center;
+}
+
 .btn {
   margin-top: 8px;
   background-color: black;
@@ -31,7 +45,12 @@ body {
   background-color: rgb(224, 191, 0);
   transition: 0.5s;
 }
-#divisor1 {
+.header-pg2{
+  height: 6.713rem;
+}
+
+
+/*#divisor1 {
   margin-top: 15%;
   height: 1px;
   background: linear-gradient(
@@ -39,10 +58,11 @@ body {
     rgb(224, 191, 0) 0%,
     rgb(53, 53, 53) 100%
   );
-}
+}*/
 
 #btn1 {
-  margin-top: 27.063rem;
+  align-self: baseline;
+  font-family: 'Teko', sans-serif;
   background-color: black;
   color: rgb(224, 191, 0);
   border-color: rgb(224, 191, 0);
@@ -53,7 +73,4 @@ body {
   background-color: rgb(224, 191, 0);
   color: black;
   transition: 0.5s;
-}
-
-#img01 {
 }

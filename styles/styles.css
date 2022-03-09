@@ -1,13 +1,13 @@
 body {
   background-color: black;
-  font-family: 'Teko', sans-serif ;
+  font-family: 'Teko', sans-serif;
 }
 
-main{
+main {
   display: block;
   height: 22.375rem;
 }
-footer{
+footer {
   text-align: center;
   color: rgb(224, 191, 0);
 }
@@ -29,7 +29,7 @@ footer{
   text-align: center;
 }
 
-.button-pg2{
+.button-pg2 {
   text-align: center;
 }
 
@@ -46,10 +46,10 @@ footer{
   background-color: rgb(224, 191, 0);
   transition: 0.5s;
 }
-.header-pg2{
+.header-pg2 {
   height: 6.713rem;
 }
-.images{
+.images {
   text-align: center;
 }
 
@@ -72,7 +72,7 @@ footer{
   border-radius: 10%;
   padding: auto;
 }
-#btn1:hover{
+#btn1:hover {
   background-color: rgb(224, 191, 0);
   color: black;
   transition: 0.5s;
